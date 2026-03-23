@@ -21,17 +21,17 @@
 ---
 
 ### 📊 GitHub Stats
-![Anjali's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)
+![Anjali's GitHub stats](https://github-readme-stats.vercel.app/api?username=ANJALI-ANAMYA&show_icons=true&theme=radical)
 
 ---
 
 ### 🔥 Streak Stats
-![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=radical)
+![GitHub Streak](https://streak-stats.demolab.com?user=ANJALI-ANAMYA&theme=radical)
 
 ---
 
 ### 📈 Most Used Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ANJALI-ANAMYA&layout=compact&theme=radical)
 
 ---
 
