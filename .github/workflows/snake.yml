@@ -1,26 +1,27 @@
-name: Generate Snake
+name: Snake Animation
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
+
+permissions:
+  contents: write   # IMPORTANT
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Generate snake
-        uses: Platane/snk@v3
+      - uses: Platane/snk@v3
         with:
           github_user_name: ANJALI-ANAMYA
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
 
-      - name: Push to output branch
-        uses: peaceiris/actions-gh-pages@v4
+      - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
